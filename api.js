@@ -29,8 +29,8 @@ api.use(cors());
 //api.use(bodyparser.urlencoded({extended : true}));
 //api.use(bodyparser.json({limit: '20mb', extended : true}));
 
-api.use(bodyparser.json({limit: '200mb'}));
-api.use(bodyparser.json({limit: '200mb', extended : true}));
+api.use(bodyparser.json({limit: '300mb'}));
+api.use(bodyparser.json({limit: '300mb', extended : true}));
 
 api.use('/public' , express.static(__dirname + '/public'));
 
